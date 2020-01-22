@@ -1,0 +1,107 @@
+/* タブレット用デザイン */
+
+@media all and (max-width:1000px){
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+/* 
+  .lessons{
+    height: 910px;
+  } */
+
+
+  .lesson{
+    width:50%;  
+    margin-bottom: 50px;
+  }
+
+  .message{
+    height: 350px;
+  }
+
+  .message h2{
+    font-size: 18px;
+  }
+  /* .message h3{
+    font-size: 17px;
+  } */
+  /* .menu-icon{
+    display: none;
+  } */
+
+
+  footer{
+    text-align: center;
+  }
+}
+/* スマートフォン用デザイン */
+
+@media all and (max-width:670px){
+
+  /* .container{  
+    padding: 0 0;
+  } */
+
+  .header-right{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+
+  .top-wrapper h1{
+    text-align: left;
+
+  }  
+  .top-wrapper h1{
+    font-size: 24px;
+  }
+  .top-wrapper p{
+    font-size: 13px;
+    /* text-align: left; */
+  }
+  /* .sub-message{
+    font-size: 13px; */
+    /* text-align: left; */
+  /* } */
+
+
+  .btn{
+    width: 100%;
+  }
+  .facebook{
+    margin-bottom: 10px;
+  }
+
+
+  /* .lessons{
+    height:1600px;
+
+  } */
+
+  /* .clear{
+    clear: left;
+  } */
+
+  .lesson{
+    width:100%;  
+    /* margin-bottom: 50px; */
+    
+  }
+  
+
+
+  .message-btn{
+    width: 100%;
+  }  
+
+
+
+
+
+
+
+
+
+
+}
